@@ -6,6 +6,7 @@
 - Listing URL's
 - Text To Images
 - Containers For Positioning
+- Adding Border Style
 - 
 
 ## 1.0.4
