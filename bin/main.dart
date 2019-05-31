@@ -4,6 +4,10 @@
 //   print('Hello world: ${hello.calculate()}!');
 // }
 
-void main() {
-  print('Dart console sample');
+import 'samples/future_sample.dart';
+import 'dart:async';
+
+void main() async {
+  var fs = new FutureSample();
+  print(await fs.main());
 }
