@@ -1,3 +1,13 @@
+## 1.0.4
+- Named Constructors
+- Adding An Image Model
+- Function References
+- The HTTP Package
+- Issuing HTTP Requests
+- Handling Dart Futures
+- Parsing Future Responses Into A Model
+- Updating The AppState Widget
+
 ## 1.0.3
 - What's Flutter About, Anyways?
 - App Overview

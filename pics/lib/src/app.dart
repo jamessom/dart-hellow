@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' show get;
+import 'models/image_model.dart';
+import 'dart:convert';
 
 // StatelessWidget => never contain its own data
 // this widget will have no instance variables that will change
@@ -14,6 +17,14 @@ class App extends StatefulWidget {
 
 class AppState extends State<App> {
   int counter = 0;
+  List<ImageModel> images = [];
+
+  void fetchImage() async {
+    counter ++;
+    var res = await get('https://jsonplaceholder.typicode.com/photos/${counter}');
+    var imageModell = ImageModel.fromJson(json.decode(res.body));
+    setState(() => images.add(imageModell));
+  }
 
   Widget build(context) {
     return MaterialApp(
@@ -24,7 +35,7 @@ class AppState extends State<App> {
         body: Text('${counter}'),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
-          onPressed: () => setState(() => counter += 1),
+          onPressed: fetchImage,
         ),
       ),
 
