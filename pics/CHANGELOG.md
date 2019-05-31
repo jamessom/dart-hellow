@@ -1,3 +1,13 @@
+## 1.0.5
+- Building Lists Of Widgets
+- Sending Images To The ImageList
+- The Final Keyword
+- Building Lists With ListView
+- Listing URL's
+- Text To Images
+- Containers For Positioning
+- 
+
 ## 1.0.4
 - Named Constructors
 - Adding An Image Model
