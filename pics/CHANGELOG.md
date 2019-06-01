@@ -4,6 +4,11 @@
 - Creating The Login Screen
 - More Container Styling
 - Labels And Hint Text
+- Customizing Keyboard Type
+- Handling Password Inputs
+- Displaying Buttons With RaisedButton
+- Changing Widget Colors
+- Layout Control
 
 ## 1.0.5
 - Building Lists Of Widgets
