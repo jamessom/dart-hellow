@@ -5,6 +5,12 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Login App",
+      "program": "login_stateful/lib/main.dart",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
       "name": "Pics App",
       "program": "pics/lib/main.dart",
       "request": "launch",

@@ -1,3 +1,7 @@
+## 1.0.6
+- App Overview
+- Boilerplate App Code
+
 ## 1.0.5
 - Building Lists Of Widgets
 - Sending Images To The ImageList
