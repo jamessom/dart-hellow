@@ -1,6 +1,9 @@
 ## 1.0.6
 - App Overview
 - Boilerplate App Code
+- Creating The Login Screen
+- More Container Styling
+- Labels And Hint Text
 
 ## 1.0.5
 - Building Lists Of Widgets
