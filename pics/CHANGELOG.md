@@ -28,6 +28,13 @@
 - Adding A StreamTransformer
 - Implementing The Listener
 - Stream Review
+- Let's Build A Game
+- Why Streams?
+- Word Guessing
+- Stream's 'Take' And 'Where' Functions
+- Validation With Streams
+- Email Validation
+- Wiring Up The Error
 
 ## 1.0.5
 - Building Lists Of Widgets
