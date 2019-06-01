@@ -18,6 +18,9 @@
 - Triggering Validation
 - Retrieving Form Values
 - Final Form Submittal
+- Code Reuse With Mixins
+- Mixin Validator Implementation
+- A Quick Detour
 
 
 ## 1.0.5
