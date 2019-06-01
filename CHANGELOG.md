@@ -1,3 +1,10 @@
+## 1.0.7
+- BLOC's Vs Stateful Widgets
+- The Purpose Of Streams With Blocs
+- Generating A New Project
+- App Boilerplate
+
+
 ## 1.0.6
 - App Overview
 - Boilerplate App Code
