@@ -5,16 +5,24 @@ class LoginScreen extends StatefulWidget {
 }
 
 class LoginScreenState extends State<LoginScreen> {
+  final formKey = GlobalKey<FormState>();
+
+  var email = '';
+  var password = '';
+  
   Widget build(context) {
     return Container(
       margin: EdgeInsets.all(20.0),
-      child: Column(
-        children: [
-          emailField(),
-          passwordField(),
-          Container(margin: EdgeInsets.only(top: 25.0),),
-          submitButton()
-        ],
+      child: Form(
+        key: formKey,
+        child: Column(
+          children: [
+            emailField(),
+            passwordField(),
+            Container(margin: EdgeInsets.only(top: 25.0),),
+            submitButton()
+          ],
+        ),
       ),
     );
   }
@@ -26,6 +34,12 @@ class LoginScreenState extends State<LoginScreen> {
         labelText: 'Email Adress',
         hintText: 'you@example.com'
       ),
+      validator: (String value) {
+        if (!value.contains('@')) {
+          return 'Please enter a valid email.';
+        }
+      },
+      onSaved: (String value) => email = value,
     );
   }
 
@@ -35,6 +49,12 @@ class LoginScreenState extends State<LoginScreen> {
         labelText: 'Insert Password',
         hintText: 'Password'
       ),
+      validator: (String value) {
+        if (value.length < 4) {
+          return 'Password must be at least 4 characters';
+        }
+      },
+      onSaved: (String value) => password = value,
     );
   }
 
@@ -42,7 +62,14 @@ class LoginScreenState extends State<LoginScreen> {
     return RaisedButton(
       color: Colors.blue,
       child: Text('Submit'),
-      onPressed: () {},
+      onPressed: () {
+        var currentForm = formKey.currentState;
+
+        if(currentForm.validate()){
+          currentForm.save();
+          print("Time to send for my API email: ${email} and pass: '${password}'");
+        }
+      },
     );
   }
 }
