@@ -7,7 +7,9 @@
 - Text To Images
 - Containers For Positioning
 - Adding Border Style
-- 
+- Column Widgets For Layout
+- Selective Padding
+- App Review
 
 ## 1.0.4
 - Named Constructors
