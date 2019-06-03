@@ -5,7 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Login App",
+      "name": "Login Bloc App",
+      "program": "login_bloc/lib/main.dart",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "Login Stateful App",
       "program": "login_stateful/lib/main.dart",
       "request": "launch",
       "type": "dart"

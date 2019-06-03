@@ -3,7 +3,7 @@
 - The Purpose Of Streams With Blocs
 - Generating A New Project
 - App Boilerplate
-
+- Second Time On LoginScreen
 
 ## 1.0.6
 - App Overview
