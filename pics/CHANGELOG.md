@@ -1,10 +1,3 @@
-## 1.0.7
-- BLOC's Vs Stateful Widgets
-- The Purpose Of Streams With Blocs
-- Generating A New Project
-- App Boilerplate
-- Second Time On LoginScreen
-
 ## 1.0.6
 - App Overview
 - Boilerplate App Code
@@ -56,7 +49,6 @@
 - Selective Padding
 - App Review
 
-
 ## 1.0.4
 - Named Constructors
 - Adding An Image Model
@@ -93,12 +85,7 @@
 - Working With JSON
 - Casting JSON To Model Instances
 
-## 1.0.1
-#### Base: [Dart & Flutter - The complete developers guide](https://www.learningcrux.com/course/dart-and-flutter-the-complete-developers-guide)
-- Customizing Print Statements
-- ToString On Cards
-- Shuffling A List
-
-## 1.0.0
-
-- Initial version, created by Stagehand
+----- 
+- Links
+  - [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html)
+  - [JSONPlaceholder](https://jsonplaceholder.typicode.com/)

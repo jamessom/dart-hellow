@@ -10,4 +10,4 @@ echo '                                                                          
 
 echo ''
 
-nodemon --exec dart bin/deck_program/main.dart --watch
+nodemon --exec dart bin/main.dart --watch
